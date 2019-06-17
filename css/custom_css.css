@@ -1,0 +1,120 @@
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+	footer .four_columns .column1,
+	footer .four_columns .column2,
+	footer .four_columns .column3, 
+	footer .four_columns .column4 {
+		width: 50%;
+    min-height: 0!important;
+	}
+	footer .four_columns .column3 {
+		clear:both;
+	}
+footer .four_columns .column1,
+footer .four_columns .column2 {
+    margin: 0 0 25px;
+}
+}
+
+.qbutton {
+    transition: color 0.15s ease-out, background-color 0.3s cubic-bezier(0.39, 0.58, 0.57, 1), border-color 0.3s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+
+.gallery_holder ul li .gallery_hover {
+   background-color: rgba(255,255,255,0.2);
+   -webkit-transition: opacity .3s ease-in-out;
+   transition: opacity .3s ease-in-out;
+}
+
+.gallery_holder ul li .gallery_hover i.fa.fa-search {
+    display: none;
+}
+
+.gallery_holder ul li a img {
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+}
+
+.q_team .q_team_text{
+    padding-top: 0px;
+}
+footer .qodef-connect-form{
+position:relative;
+}
+footer .qodef-connect-form .qode-connect-submit {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 30px;
+    height: 55px;
+}
+footer .qodef-connect-form input.wpcf7-form-control.wpcf7-submit {
+    background-color: transparent;
+    border: 0;
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 30px;
+    height: 55px;
+    overflow: hidden;
+    text-indent: -2000px;
+    padding: 0;
+}
+footer .qodef-connect-form .qode-connect-submit:after {
+    width: 30px;
+    height: 55px;
+    font-family: 'ElegantIcons';
+    content: "\24";
+    position: absolute;
+    display: block;
+    top: 0;
+    right: 0;
+    line-height: 51px;
+    font-size: 24px;
+    color: #fff;
+    pointer-events: none;
+}
+
+body div.pp_default .pp_content{
+    margin: 0;
+}
+
+#back_to_top .arrow_carrot-up:before {
+    right: 2px;
+    position: relative;
+}
+
+#ui-datepicker-div .ui-datepicker-today a {
+    color: #fff;
+}
+
+nav.main_menu>ul>li>a span.menu-text {
+    position: relative;
+}
+
+nav.main_menu>ul>li>a span.menu-text:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 3px;
+    width: 0;
+    background: #525c66;
+    left: 50%;
+    bottom: -5px;
+    -webkit-transform: translate(-50%,0) translateZ(0);
+    -moz-transform: translate(-50%,0) translateZ(0);
+    transform: translate(-50%,0) translateZ(0);
+    -webkit-transition: width .35s cubic-bezier(.27,.62,.43,1.01);
+    -moz-transition: width .35s cubic-bezier(.27,.62,.43,1.01);
+    transition: width .35s cubic-bezier(.27,.62,.43,1.01);
+}
+
+nav.main_menu>ul>li.active>a span.menu-text:after,
+nav.main_menu>ul>li>a:hover span.menu-text:after {
+   width: 100%;
+}
+
+.light:not(.sticky):not(.scrolled) nav.main_menu>ul>li>a span.menu-text:after {
+   background: #fff;
+}
